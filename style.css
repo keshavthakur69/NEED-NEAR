@@ -1,0 +1,132 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  /* width: 80%; */
+  /* margin-inline: 40px; */
+  /* align-items: center; */
+  /* display: flex; */
+}
+
+
+.nav{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  /* background-color: rgba(173, 201, 173, 0.798); */
+  width: 100%;
+  height: 100px;
+  /* margin-top: 100px; */
+  align-items: center;
+  position: relative;
+}
+.nav-logo{
+  right: 250px;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40px;
+}
+.login{
+  left: 200px;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid green;
+  font-size: 20px;
+  background-color: lightgreen;
+}
+.nav-item{
+  gap: 10px;
+  position: relative;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.nav-link:hover{
+  color: rgb(86, 95, 102);
+}
+
+
+/* home */
+
+.home{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  /* border-radius: 10px; */
+  filter: blur(15px);
+  /* filter: blur(10px); */
+
+
+
+  /* opacity: 0.5; */
+
+}
+
+.form-container{
+  position: absolute;
+  width: 100%;
+  max-width: 320px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(255, 255, 255, 0.807);
+  padding: 25px;
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  z-index: 100;
+  box-shadow: 10px 10px 10px 5px rgba(6, 6, 6, 0.36);
+  
+
+
+
+}
+.form_close{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: rgb(48, 46, 46);
+  font-size: 22px;
+  cursor: pointer;
+
+
+}
+.form-container h2{
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.input-box{
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+
+}
+.input-box input{
+  height: 100%;
+  width: 250px;
+  border: none;
+  padding: 0 30px;
+  color: #333;
+  outline: none;
+  border-bottom: 1.5px solid rgb(52, 49, 49);
+}
+.input-box i{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+i.email,
+i.password{
+  right: 295px;
+}
+i.pw_hide{
+  left: 90%;
+}
